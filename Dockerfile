@@ -11,9 +11,3 @@ RUN pip install -r requirements.txt
 
 # Copy the project files
 COPY . /app/
-
-# Set a default port
-# ENV PORT=8080
-
-# Run gunicorn
-# CMD gunicorn ebdjango.wsgi:application --bind 0.0.0.0:$PORT
