@@ -16,4 +16,4 @@ COPY . /app/
 # ENV PORT=8080
 
 # Run gunicorn
-CMD gunicorn ebdjango.wsgi:application --bind 0.0.0.0:$PORT
+# CMD gunicorn ebdjango.wsgi:application --bind 0.0.0.0:$PORT
